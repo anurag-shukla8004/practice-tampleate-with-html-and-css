@@ -267,6 +267,6 @@ ul li a:hover {
 }
 
 .footer-content a:hover {
-  color: #fff;
+  color: rgb(216, 206, 206);
   transition: 0.3s;
 }

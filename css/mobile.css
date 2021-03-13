@@ -1,0 +1,48 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+  /* #################  Showcase ################ */
+  .showcase-container {
+    flex-direction: column;
+  }
+
+  .row {
+    padding: 0;
+  }
+
+  .box1 p {
+    text-align: justify;
+  }
+
+  /* ###################### Read more ################# */
+
+  .read-container {
+    flex-direction: column;
+  }
+  .read {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .read p {
+    padding-left: 30px;
+  }
+}
+
+/* <!-- ###################---History--############# --> */
+
+.his {
+  flex-direction: column;
+  align-items: center;
+}
+
+.history-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
