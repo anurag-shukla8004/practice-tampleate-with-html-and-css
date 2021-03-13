@@ -2,6 +2,7 @@
   html {
     font-size: 15px;
   }
+
   /* #################  Showcase ################ */
   .showcase-container {
     flex-direction: column;
@@ -47,15 +48,25 @@
   align-items: center;
 }
 
-@media (max-width: 5023px) {
+@media (max-width: 418px) {
   html {
-    font-size: 14px;
+    font-size: 13px;
   }
+
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
   ul {
-    padding: 1rem;
+    padding: ;
   }
   .ul {
     display: flex;
+    justify-content: flex-start;
+    padding-left: 300px;
   }
   .ul li {
     padding: 0;
@@ -64,5 +75,9 @@
   .logo img {
     width: fit-content;
     height: fit-content;
+  }
+
+  .history {
+    width: 100vw;
   }
 }
