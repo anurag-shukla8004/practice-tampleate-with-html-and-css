@@ -46,3 +46,22 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 501px) {
+  html {
+    font-size: 14px;
+  }
+  ul {
+    padding: 1rem;
+  }
+  .ul {
+    display: flex;
+  }
+  .ul li {
+    padding: 0;
+  }
+
+  .logo img {
+    width: 30pxpx;
+  }
+}
